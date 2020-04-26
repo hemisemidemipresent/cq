@@ -274,9 +274,7 @@ a {
     }
 }
 
-a.old-docs {
-    color: #23ffaa;
-}
+
 
 /* Large screens */
 @media only screen and (min-width: 600px) {
