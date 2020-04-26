@@ -65,6 +65,10 @@ svg#doc-item-svg {
     height: 25px;
 }
 
+a.old-docs {
+    color: #23ffaa;
+}
+
 a#logo {
     color: var(--a);
 }
