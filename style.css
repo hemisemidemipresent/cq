@@ -42,60 +42,92 @@ header {
 main {
     min-height: 1000px;
     padding: 2rem;
-
 }
-
-div.info-container-container {
-    display: column;
-    flex-direction: row;
-    justify-content: center;
-}
-
 
 
 img#logo {
     margin: 2em 0 0;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
+}
+
+img.table {
+    width: 100px;
+    height: 100px;
+}
+
+svg.table {
+    margin-left: 1rem;
+}
+
+svg#doc-item-svg {
+    width: 25px;
+    height: 25px;
 }
 
 a#logo {
-    color: var(--a)
+    color: var(--a);
 }
 
-div.info-container {
-    display: flex;
+/*main?*/
+.home {
+    margin-left: 10vw;
+    font-family: 'Roboto Mono', monospace;
+}
+
+table.home,
+tr.home,
+td.home {
+    border: none;
+    border-collapse: collapse;
+}
+
+.doc-container {
+    display: flexbox;
     flex-direction: row;
-    justify-content: space-between;
-    margin-left: 5vw;
-    width: 75vw;
     flex-wrap: wrap;
-    margin-bottom: 5vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.doc-item {
+    width: 200px;
+    height: 75px;
+}
+
+table.home {
+    margin: auto;
+}
+
+td.home {
+    padding: 1rem;
+}
+
+a#table {
+    color: var(--a);
+}
+
+
+fa-secondary {
+    color: var(--text);
 }
 
 /* Navbar */
 
-.navbar {
+.top-navbar {
     height: 70px;
     width: 100%;
     background: var(--bg-nav);
     color: var(--text);
 }
 
-.navbar-nav {
+.top-navbar-nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     height: 100%;
 }
 
-a.main {
-    color: var(--a);
-}
-
-a.head {
-    text-decoration: var(--a) underline;
-}
 
 .dropdown {
     position: absolute;
@@ -147,7 +179,6 @@ a.head {
     margin-right: 10px;
 }
 
-
 /* Themes */
 
 
@@ -165,8 +196,8 @@ a.head {
     --jet: rgb(51, 50, 50);
     --black: rgb(7, 2, 13);
     --liquorice: rgb(25, 21, 22);
-    --aqua: rgb(115, 238, 220);
-    --darkquincy: rgb(16, 88, 82);
+    --aqua: rgb(0, 85, 4);
+    --darkquincy: rgb(0, 61, 25);
 }
 
 .light {
