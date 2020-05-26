@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cyber Quincy</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style-again.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./media/favicon_10_1.png" />
+
+    <script defer src="app.js"></script>
+</head>
+
+<body class='dark'>
+
+    <nav class="top-navbar">
+        <ul class="top-navbar-nav">
+            <li class="top-nav-item"><a href="index.html">Home</a></li>
+            <li class='top-nav-item'><a href="docs.html">Docs</a></li>
+            <!-- Dropdown-->
+            <li class="top-nav-item has-dropdown">
+                <a href="#">Theme</a>
+                <ul class="dropdown">
+                    <li class="dropdown-item">
+                        <a id="light" href="#">light</a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a id="dark" href="#">dark</a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a id="solar" href="#">solarize</a>
+                    </li>
+                </ul>
+            </li>
+
+        </ul>
+    </nav>
+    <div id='content'>
+        <h1>Calculation Functions</h1>
+        <section>
+            <h2>
+                <code>q!income startround endround</code>
+            </h2>
+            <p>
+                shows how much money you will get if you pop all the bloons from <code>startround</code> to
+                <code>endround</code>
+            </p>
+            <p>
+                <b>Arguments:</b>
+            </p>
+            <table>
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Type
+                    </th>
+                    <th>
+                        Description
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <code>startround</code>
+                    </td>
+                    <td>
+                        number
+                    </td>
+                    <td>
+                        The starting round to calculate the cash
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <code>endround</code>
+                    </td>
+                    <td>
+                        number
+                    </td>
+                    <td>
+                        The ending round to calculate the cash
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <code>gamemode</code>
+                    </td>
+                    <td>
+                        string (optional)
+                    </td>
+                    <td>
+                        The gamemode to calculate for (no spaces)
+                    </td>
+                </tr>
+            </table>
+            <p>
+                <b>Example:</b>
+            </p>
+            <code>q!income 2 37 abr</code>
+        </section>
+        <section>
+            <h2>
+                <code>q!income startround endround</code>
+            </h2>
+            <p>
+                shows which round you will get <code>cashneeded</code> from
+                <code>startround</code>
+            </p>
+            <p>
+                <b>Arguments:</b>
+            </p>
+            <table>
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Type
+                    </th>
+                    <th>
+                        Description
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <code>cashneeded</code>
+                    </td>
+                    <td>
+                        number
+                    </td>
+                    <td>
+                        The cash needed
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <code>startround</code>
+                    </td>
+                    <td>
+                        number
+                    </td>
+                    <td>
+                        The starting round
+                    </td>
+                </tr>
+
+            </table>
+            <p>
+                <b>Example:</b>
+            </p>
+            <code>q!cash 20000 37</code>
+        </section>
+        <section>
+            <h2>
+                <code>q!income startround endround</code>
+            </h2>
+            <p>
+                shows which round you will get <code>cashneeded</code> from
+                <code>startround</code>
+            </p>
+            <p>
+                <b>Arguments:</b>
+            </p>
+            <table>
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Type
+                    </th>
+                    <th>
+                        Description
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <code>cashneeded</code>
+                    </td>
+                    <td>
+                        number
+                    </td>
+                    <td>
+                        The cash needed
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <code>startround</code>
+                    </td>
+                    <td>
+                        number
+                    </td>
+                    <td>
+                        The starting round
+                    </td>
+                </tr>
+
+            </table>
+            <p>
+                <b>Example:</b>
+            </p>
+            <code>q!cash 20000 37</code>
+        </section>
+    </div>
+</body>
+
+</html>
