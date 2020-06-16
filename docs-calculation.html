@@ -41,10 +41,11 @@
         </ul>
     </nav>
     <div id='content'>
+        <p>DO NOT literally type the words in italics, they are <code><i>arguments</i></code>, which are inputs</p>
         <h1>Calculation Functions</h1>
         <section>
             <h2>
-                <code>q!income startround endround</code>
+                <code>q!income <i>startround</i> <i>endround</i></code>
             </h2>
             <p>
                 shows how much money you will get if you pop all the bloons from <code>startround</code> to
@@ -106,7 +107,7 @@
         </section>
         <section>
             <h2>
-                <code>q!income startround endround</code>
+                <code>q!cash <i>cashneeded</i> <i>startround</i></code>
             </h2>
             <p>
                 shows which round you will get <code>cashneeded</code> from
@@ -158,7 +159,7 @@
         </section>
         <section>
             <h2>
-                <code>q!income startround endround</code>
+                <code>q!health <i>blimp</i> <i>round</i></code>
             </h2>
             <p>
                 shows which round you will get <code>cashneeded</code> from
@@ -181,24 +182,24 @@
                 </tr>
                 <tr>
                     <td>
-                        <code>cashneeded</code>
+                        <code>bloon</code>
                     </td>
                     <td>
-                        number
+                        string
                     </td>
                     <td>
-                        The cash needed
+                        The blimp to calculate the health for
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <code>startround</code>
+                        <code>round</code>
                     </td>
                     <td>
                         number
                     </td>
                     <td>
-                        The starting round
+                        The round where the blimp spawns
                     </td>
                 </tr>
 
@@ -206,7 +207,179 @@
             <p>
                 <b>Example:</b>
             </p>
-            <code>q!cash 20000 37</code>
+            <code>q!health MOAB 420</code>
+        </section>
+        <section>
+            <h2>
+                <code>q!speed <i>bloon</i> <i>round</i></code>
+            </h2>
+            <p>
+                shows the speed of <code>bloon</code> in round
+                <code>round</code>
+            </p>
+            <p>
+                <b>Arguments:</b>
+            </p>
+            <table>
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Type
+                    </th>
+                    <th>
+                        Description
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <code>bloon</code>
+                    </td>
+                    <td>
+                        string
+                    </td>
+                    <td>
+                        The bloon/blimp to calculate the speed for
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <code>round</code>
+                    </td>
+                    <td>
+                        number
+                    </td>
+                    <td>
+                        The round where the bloon/blimp spawns
+                    </td>
+                </tr>
+
+            </table>
+            <p>
+                <b>Example:</b>
+            </p>
+            <code>q!speed MOAB 420</code>
+        </section>
+        <section>
+            <h2>
+                <code>q!herolevel <i>hero</i> <i>startround</i> <i>mapdifficultyID</i></code>
+            </h2>
+            <h4>NOTE: all the arguments are <b>OPTIONAL</b>, so you can just type <code>q!herolevel1</code>, and there
+                will be an automated response</h4>
+            <p>
+                shows which round a specific hero will reach a particular level
+            </p>
+            <p>
+                <b>Arguments:</b>
+            </p>
+            <table>
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Type
+                    </th>
+                    <th>
+                        Description
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <code>bloon</code>
+                    </td>
+                    <td>
+                        string (optional)
+                    </td>
+                    <td>
+                        the hero name
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <code>startround</code>
+                    </td>
+                    <td>
+                        number (optional)
+                    </td>
+                    <td>
+                        The round when the hero is placed
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <code>mapdifficultyID</code>
+                    </td>
+                    <td>
+                        number (optional)
+                    </td>
+                    <td>
+                        <ul>beginner - 1</ul>
+                        <ul>intermediate - 2</ul>
+                        <ul>advanced - 3</ul>
+                        <ul>expert - 4</ul>
+                    </td>
+                </tr>
+
+            </table>
+            <p>
+                <b>Example:</b>
+            </p>
+            <code>q!herolevel, it is advised to use the easier interface, use the advanced argument-based one if you are experienced</code>
+        </section>
+        <section>
+            <h2>
+                <code>q!monkeyopolis <i>totalfarmcost</i> <i>numberoffarms</i></code>
+            </h2>
+
+            <p>
+                shows money produced in a round, cost of upgrade and how many rounds it takes to break even
+
+            </p>
+            <p>
+                <b>Arguments:</b>
+            </p>
+            <table>
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Type
+                    </th>
+                    <th>
+                        Description
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <code>totalfarmcost</code>
+                    </td>
+                    <td>
+                        number
+                    </td>
+                    <td>
+                        the cost of all the farms
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <code>numberoffarms</code>
+                    </td>
+                    <td>
+                        number
+                    </td>
+                    <td>
+                        the number of farms sacrificed to the monkeyopolis </td>
+                </tr>
+
+
+            </table>
+            <p>
+                <b>Example:</b>
+            </p>
+            <code>q!monkeyopolis 66000 3</code>
         </section>
     </div>
 </body>

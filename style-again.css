@@ -37,6 +37,14 @@ a {
     text-decoration: none;
 }
 
+a.coloured {
+    color: var(--quincy)
+}
+
+section {
+    margin-bottom: 2.5em;
+}
+
 div#content {
     margin-left: 50px;
 }

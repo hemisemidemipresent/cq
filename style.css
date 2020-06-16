@@ -25,6 +25,14 @@ ul {
     padding: 0;
 }
 
+ul.docs {
+    list-style-type: disc;
+}
+
+ul.docs a {
+    color: var(--quincy)
+}
+
 a {
     color: currentColor;
     text-decoration: none;
@@ -66,7 +74,7 @@ svg#doc-item-svg {
 }
 
 a.old-docs {
-    color: #23ffaa;
+    color: var(--a);
 }
 
 a#logo {
@@ -246,4 +254,8 @@ fa-secondary {
 
 #solar::before {
     background: var(--bg-solar);
+}
+
+div#content {
+    margin-left: 50px
 }
