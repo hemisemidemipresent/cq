@@ -39,14 +39,13 @@ shows 3 things:
 ## health
 
 q!health &lt;`blimp`> &lt;`round`>
+shows the health of `blimp` at round `round`
 
 example:
 
 ```
 q!health bfb 420
 ```
-
-shows the health of `blimp` at round `round`
 
 ## herolevel
 
@@ -63,6 +62,17 @@ q!income 7 67
 ```
 
 shows the amount of cash earned from popping all the bloons from `startround` to `endround` (in `difficulty` mode of course)
+
+## speed
+
+q!speed &lt;`blimp/bloon`> &lt;`round`>
+shows the speed of `blimp/bloon` at round `round`
+
+example:
+
+```
+q!speed pink 420
+```
 
 ## yopolis
 
