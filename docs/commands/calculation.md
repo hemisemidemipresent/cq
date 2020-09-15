@@ -63,6 +63,16 @@ q!income 7 67
 
 shows the amount of cash earned from popping all the bloons from `startround` to `endround` (in `difficulty` mode of course)
 
+## rbe
+
+q!rbe &lt;`startround`> &lt;`endround`> [`difficulty`]
+
+```
+q!rbe 7 67
+```
+
+shows the number of pops from popping all the bloons from `startround` to `endround` (in `difficulty` mode of course)
+
 ## speed
 
 q!speed &lt;`blimp/bloon`> &lt;`round`>

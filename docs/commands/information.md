@@ -91,6 +91,8 @@ example
 q!map #ouch
 ```
 
+if you are struggling to get the map name, here are the [accepted aliases](accepted_maps.md)
+
 ## quiz
 
 just run `q!quiz`
@@ -117,6 +119,10 @@ example
 ```
 q!round 4
 ```
+
+## secret
+
+just run q!secret, which shows the all the secret achievements
 
 ## temple
 
@@ -158,3 +164,13 @@ Shows the stats for the specified upgrade of tower (q!dart 003 shows stats for c
 -   001, 002, ..., 005
 -   010, 020, ..., 050
 -   001, 002, ..., 005
+
+example:
+
+```
+q!ice 500
+```
+
+## update
+
+just use q!update, and shows all the patch notes links
