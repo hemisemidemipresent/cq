@@ -4,6 +4,39 @@ Cyber Quincy has many, many features. There are many command categories, so feel
 
 > all the inputs are case-insensitive
 
+## Popular commands
+
+Some of this bot's most popular commands
+
+###  q!&lt;tower&gt;
+
+shows stats for tower upgrades
+```
+examples: 
+q!ice 500
+q!dart 004
+```
+
+### q!income
+
+shows amount of money earnt **on a round** / **from a round to another round**
+```
+examples:
+q!income 63 78
+q!income 99
+```
+### q!round
+
+shows stats for a round
+```
+examples:
+q!round 63
+```
+### q!herolevel
+shows which round a hero will reach each level
+
+just run "q!herolevel"
+
 ## How To Read
 
 a command starts with a prefix `q!` followed immediately by a `command name`, then a space, then all the `arguments`, a bit like this:
