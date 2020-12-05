@@ -24,6 +24,10 @@ just run q!challenge. Generates a random challenge
 
 just run q!cursed. Shows something cursed
 
+## daily
+
+q!daily &lt;`daily challenge number`>
+
 ## emoji
 
 q!emoji &lt;`emoji`>. List of emoji names will be coming soon, currently dont use this command yet
@@ -53,6 +57,15 @@ shows a fanart.
 
 ```
 q!fanart 3
+```
+
+## getChallenge
+
+gets a challenge from a challenge code
+
+example:
+```
+q!getChallenge ZMGUVFR
 ```
 
 ## <hero>

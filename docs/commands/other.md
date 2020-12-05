@@ -28,6 +28,11 @@ use `q!deletexp confirm` to delete your xp
 
 shows you a bunch of ~~useless~~ links
 
+## imgur
+
+attach an image - q!imgur text blah blah ...
+use another image - q!imgur https://link.com text blah blah
+
 ## info
 
 shows bot stats
@@ -44,6 +49,9 @@ shows the [invite link](https://discordapp.com/oauth2/authorize?client_id=591922
 -   q!level [`@mention a user`] - shows mentioned user's level
 -   q!level help - shows levelling info
 -   q!level rewards - shows cool perks that come with levelling
+## minesweeper
+
+`q!minesweeper`
 
 ## ping
 

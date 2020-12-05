@@ -16,15 +16,19 @@ examples:
 q!ice 500
 q!dart 004
 ```
+<img src="https://cdn.discordapp.com/attachments/699781597515481159/781538186140712980/Screenshot_1333.png"/>
 
 ### q!income
 
 shows amount of money earnt **on a round** / **from a round to another round**
+
 ```
 examples:
 q!income 63 78
 q!income 99
 ```
+<img src = "https://cdn.discordapp.com/attachments/699781597515481159/781538180964941884/Screenshot_1332.png"/>
+
 ### q!round
 
 shows stats for a round
@@ -32,6 +36,8 @@ shows stats for a round
 examples:
 q!round 63
 ```
+<img src = "https://cdn.discordapp.com/attachments/699781597515481159/781538159804547123/Screenshot_1331.png"/>
+
 ### q!herolevel
 shows which round a hero will reach each level
 

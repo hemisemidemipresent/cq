@@ -51,6 +51,14 @@ q!health bfb 420
 
 just like q!bank, this is automatic. This calculates what level a hero will reach when it is placed on a round
 
+## herolevelby
+
+similar to `q!herolevel`. This time in reverse, calculates when you should place a hero to get specified level by specified round.
+
+## herolevelenergiser
+
+similar to `q!herolevel` but with the added paramter on which round you got energiser
+
 ## income
 
 q!income &lt;`startround`> &lt;`endround`> [`difficulty`]
