@@ -1,73 +1,33 @@
-# Introduction
+# Website
 
-Cyber Quincy has many, many features. There are many command categories, so feel free to browse through them
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-> all the inputs are case-insensitive
+## Installation
 
-## Popular commands
-
-Some of this bot's most popular commands
-
-###  q!&lt;tower&gt;
-
-shows stats for tower upgrades
-```
-examples: 
-q!ice 500
-q!dart 004
-```
-<img src="https://cdn.discordapp.com/attachments/699781597515481159/781538186140712980/Screenshot_1333.png"/>
-
-### q!income
-
-shows amount of money earnt **on a round** / **from a round to another round**
-
-```
-examples:
-q!income 63 78
-q!income 99
-```
-<img src = "https://cdn.discordapp.com/attachments/699781597515481159/781538180964941884/Screenshot_1332.png"/>
-
-### q!round
-
-shows stats for a round
-```
-examples:
-q!round 63
-```
-<img src = "https://cdn.discordapp.com/attachments/699781597515481159/781538159804547123/Screenshot_1331.png"/>
-
-### q!herolevel
-shows which round a hero will reach each level
-
-just run "q!herolevel"
-
-## How To Read
-
-a command starts with a prefix `q!` followed immediately by a `command name`, then a space, then all the `arguments`, a bit like this:
-
-```
-{prefix}{commandname} {argument 1} {argument 2}
-       q!income            9            39
+```console
+yarn install
 ```
 
-all the commands you see is the **raw command name**.
+## Local Development
 
-> when you see **&lt;> and []**, **do not type "`<`", "`>`", "`[`", "`]`" literally!!!**
-
--   **&lt;`argumentName`>** means that `argumentName` is **compulsory**
-
--   **[`argumentName`]** means that `argumentName` is **optional**
-
-## Example:
-
-### monkeyopolis
-
-q!monkeyopolis &lt;total farm cost> &lt;total farm amount>
-
-example:
-
+```console
+yarn start
 ```
-q!monkeyopolis 69420 4
+
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+## Build
+
+```console
+yarn build
 ```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+## Deployment
+
+```console
+GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
