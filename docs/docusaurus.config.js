@@ -2,7 +2,7 @@
 module.exports = {
     title: 'My Site',
     tagline: 'Dinosaurs are cool',
-    url: 'https://your-docusaurus-test-site.com',
+    url: 'https://cq.netlify.app',
     baseUrl: '/docs/build/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
