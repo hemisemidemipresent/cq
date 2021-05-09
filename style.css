@@ -85,14 +85,20 @@ a#logo {
     margin-left: 10vw;
     font-family: 'Roboto Mono', monospace;
 }
-
-table.home,
-tr.home,
-td.home {
-    border: none;
-    border-collapse: collapse;
+.center{
+    text-align: center;
+    margin:0;
 }
-
+.dimmed{
+    color:var(--gray3);
+}
+.color{
+    color:#00a58f;
+    margin:0.5em;
+}
+tr{
+    border: 1px solid white;
+}
 .doc-container {
     display: flexbox;
     flex-direction: row;
